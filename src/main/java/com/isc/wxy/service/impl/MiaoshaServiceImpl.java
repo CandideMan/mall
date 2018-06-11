@@ -15,6 +15,7 @@ import com.isc.wxy.utils.MD5Util;
 import com.isc.wxy.utils.UUIDUtil;
 import com.isc.wxy.vo.ServerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.script.ScriptEngine;
@@ -26,6 +27,7 @@ import java.util.Random;
 /**
  * Created by XY W on 2018/5/26.
  */
+@Service
 public class MiaoshaServiceImpl implements MiaoshaService {
     @Autowired
     RedisService redisService;

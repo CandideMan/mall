@@ -17,7 +17,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 @Configuration
 @EnableAutoConfiguration(exclude = {MultipartAutoConfiguration.class})
-@MapperScan("com.isc.wxy.dao.*")
 public class MallApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
