@@ -1,4 +1,4 @@
-package validator;
+package com.isc.wxy.validator;
 
 import com.isc.wxy.utils.ValidatorUtil;
 import org.apache.commons.lang3.StringUtils;

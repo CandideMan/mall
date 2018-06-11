@@ -1,6 +1,6 @@
 package com.isc.wxy.domain;
 
-import validator.IsMobile;
+import com.isc.wxy.validator.IsMobile;
 
 import java.util.Date;
 

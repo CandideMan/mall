@@ -1,4 +1,4 @@
-package validator;
+package com.isc.wxy.validator;
 
 
 import javax.validation.Constraint;
