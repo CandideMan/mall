@@ -1,5 +1,7 @@
 package com.isc.wxy.domain;
 
+import validator.IsMobile;
+
 import java.util.Date;
 
 /**
@@ -12,6 +14,7 @@ public class User {
     private String username;
     private String password;
     private String email;
+    @IsMobile
     private String phone;
     private String question;
     private String answer;
